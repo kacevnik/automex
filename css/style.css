@@ -250,6 +250,16 @@ header{
     background: url(../img/shadow_top.png)repeat-x;
 }
 
+#char:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    background: url(../img/shadow_bottom.png)repeat-x;
+}
+
 
 #char h2{
     margin: 0;
@@ -300,7 +310,146 @@ header{
     margin-right: 0px;
 }
 
+#video{
+    position: relative;
+    padding: 100px 0;
+    background: url(../img/bg_3.png)no-repeat center center;
+    background-size: cover;
+}
 
+#video:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background: url(../img/shadow_top.png)repeat-x;
+}
+
+#video h2{
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#video a{
+    position: relative;
+    display: block;
+    margin: 80px auto;
+    width: 70%;
+    border: 10px solid #ffffff;
+}
+
+#video a:before{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#video a:hover:before{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#video a img{
+    width: 100%;
+}
+
+#video a span{
+    position: absolute;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+#product{
+    padding: 90px 0;
+}
+
+#product h2{
+    margin: 0 0 60px 0;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product_item{
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product_item img{
+    width: 100%;
+}
+
+.product_item_content{
+    padding: 25px;
+}
+
+
+.product_item_content p{
+    margin-bottom: 20px;
+}
+
+.product_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.product_price{
+    overflow: hidden;
+}
+
+.t_price{
+    width: 50%;
+    float: left;
+    color: #ff0000;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.t_price span{
+    font-size: 26px;
+    text-decoration: line-through;
+    color: #000000;
+}
+
+.price_button{
+    text-align: center;
+}
+
+
+.price_button a{
+    background: #ff0000;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 26px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.price_button a:hover{
+    background: rgba(255, 0, 0, 0.58);
+    color: #ffffff;
+    text-decoration: none;
+}
 
 
 

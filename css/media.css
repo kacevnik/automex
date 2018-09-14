@@ -85,6 +85,10 @@
         text-align: center;
     }
 
+    .main_list_option {
+        width: auto;
+    }
+
 }
 
 
