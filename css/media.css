@@ -52,69 +52,38 @@
 
 
 @media (max-width: 767px){
-    .main_content{
-        text-align: center;
+    #char{
+        background: url(../img/bg_2_2.jpg)no-repeat center center;
+        background-size: cover;
     }
 
-    #main{
-        padding: 130px 0 100px 0;
-    }
+    .char-col-4{
+        width: 47%;
+    }    
 
-    #main h1{
-        font-size: 46px;
-    }
-
-    .main_sub_title{
-        font-size: 26px;
-    }
-
-    .main_button .btn_yab{
-        width: 400px;
-        height: 70px;
-        line-height: 70px;
-        font-size: 22px;
-        margin-bottom: 30px;
-    }
-
-    #home_3 .row {
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-
-    #home_5 h2{
-        text-align: center;
-        float: none;
-        background: none;
-        margin-bottom: 35px;
-        padding: 0;
-        font-size: 36px;
-    }
-
-    #home_5{
-        text-align: center;
-    }
-
-    #home_5 .btn_yab{
-        float: none;
-        margin-bottom: 50px;
-    }
-
-    #home_5 .home_otziv_slider_wrap{
-        text-align: left;
+    .char-col-4:nth-child(2){
+        width: 0px;
     }
 }
 
 @media (max-width: 500px){
 
-    #main h1{
-        font-size: 24px;
+    .char-col-4{
+        width: 100%;
+        margin-bottom: 20px;
+    }    
+
+    .char-col-4:nth-child(2){
+        width: 0px;
+    }
+    #char .flex {
+        text-align: center;
+        display: block;
     }
 
-    .main_sub_title{
-        font-size: 20px;
+    .char_title_right, .char_title_left, .char_desc_right, .char_desc_left{
+        text-align: center;
     }
-
-
 
 }
 

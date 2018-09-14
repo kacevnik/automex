@@ -232,6 +232,7 @@ header{
 
 #char{
     background: url(../img/bg_2.jpg)no-repeat center center;
+    background-color: #000000;
     color: #ffffff;
     min-height: 650px;
     background-size: cover;
@@ -253,7 +254,7 @@ header{
 #char h2{
     margin: 0;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color: #ffffff;
     margin-bottom: 90px;
 }
