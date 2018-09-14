@@ -1,14 +1,6 @@
 @media (max-width: 1200px){
-    .phone_humber{
-        font-size: 18px;
-    }
-
-    .qws_item_title{
-        font-size: 15px;
-    }
-
-    ..blog_item{
-        max-height: 410px;
+    #super_gift p:first-child {
+        margin-top: 84px;
     }
 }
 
@@ -51,6 +43,18 @@
 
     #video a {
         width: 90%;
+    }
+
+    #super_gift p {
+        font-size: 30px;
+    }
+
+    #super_gift p:last-child{
+        margin-bottom: 80px;
+    }
+
+    #super_gift p:first-child{
+        margin-top: 0px;
     }
 }
 

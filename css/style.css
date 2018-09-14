@@ -491,6 +491,43 @@ header{
     background: #ff0000;
 }
 
+#super_gift{
+    padding: 70px 0;
+    background: url(../img/bg_4.png)no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#super_gift h2{
+    margin: 0 0 70px 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#super_gift p{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#super_gift p:first-child{
+    margin-top: 160px;
+}
+
+
+#super_gift p span{
+    color: #ff0000;
+}
+
+#super_gift img{
+    width: 100%;
+    margin-bottom: 30px;
+    border: 2px solid #ffffff;
+}
+
 
 
 
