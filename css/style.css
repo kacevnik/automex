@@ -14,6 +14,11 @@ h2{
     color: #333333;
 }
 
+h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #000000;
+}
+
 #main{
     color: #ffffff;
     background: url(../img/bg.png)no-repeat;
@@ -389,6 +394,7 @@ header{
     border: 1px solid #ededed;
     border-radius: 10px;
     overflow: hidden;
+    margin-bottom: 35px;
 }
 
 .product_item img{
@@ -449,6 +455,40 @@ header{
     background: rgba(255, 0, 0, 0.58);
     color: #ffffff;
     text-decoration: none;
+}
+
+.hidden_form{
+    display: none;
+    width: 340px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #000000;
+}
+
+.hidden_form h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hidden_form p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hidden_form input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+.hidden_form input[type="submit"]{
+    border: 2px solid #ff0000;
+    background: #ff00003b;
+    color: #ffffff;
+}
+
+.hidden_form input[type="submit"]:hover{
+    background: #ff0000;
 }
 
 
