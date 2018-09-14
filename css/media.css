@@ -72,6 +72,36 @@
     .char-col-4:nth-child(2){
         width: 0px;
     }
+
+    .slider_show_wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .slider_item_img {
+        width: 100%;
+        text-align: center;
+        background: none;
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+
+    .slider_item_text {
+        width: 100%;
+    }
+
+    .slider_show_wrap .owl-nav{
+        display: none;
+    }
+
+    .owl-dots{
+        display: block;
+    }
+
+    .slider_item_text {
+        background: none; 
+        padding: 0px; 
+    }
 }
 
 @media (max-width: 500px){

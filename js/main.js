@@ -1,29 +1,12 @@
    $(document).ready(function() {
 
-        $(".home_otziv_slider_wrap").owlCarousel({
+        $(".slider_show").owlCarousel({
+            nav:true,
             loop:true,
             margin: 30,
-            responsive:{
-                0:{
-                    items:1,
-                    nav:false
-                },
-                500:{
-                    items:1,
-                    nav:false
-                },
-                767:{
-                    items:2,
-                    nav:false
-                },
-                992:{
-                    items:2,
-                    nav:false
-                }
-            },
-            autoplay: true,
-            autoplayTimeout: 5000,
-            dots: true
+            items:1,
+            dots: true,
+            navText: ['<div class="slider_left"><i class="fas fa-arrow-alt-circle-left"></i></div>','<div class="slider_right"><i class="fas fa-arrow-alt-circle-right"></i></div>'],
         });
 
         $(".partners_slider").owlCarousel({

@@ -269,7 +269,7 @@ header{
 #char h2{
     margin: 0;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     color: #ffffff;
     margin-bottom: 90px;
 }
@@ -333,11 +333,10 @@ header{
 }
 
 #video h2{
-    font-size: 60px;
+    font-size: 50px;
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 #video a{
@@ -384,9 +383,8 @@ header{
 
 #product h2{
     margin: 0 0 60px 0;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -502,9 +500,8 @@ header{
     margin: 0 0 70px 0;
     color: #ffffff;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 #super_gift p{
@@ -528,6 +525,112 @@ header{
     border: 2px solid #ffffff;
 }
 
+#show{
+    background: url(../img/bg_3.png)no-repeat center center;
+    background-size: cover;
+    color: #000000;
+    padding: 90px 0;
+}
+
+#show h2{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 0 60px 0;
+}
+
+.slider_show_wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider_show_item{
+    background: #ffffff8c;
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slider_item_text{
+    width: 70%;
+    float: left;
+    background: url(../img/bg_kovicki.png)no-repeat left top;
+    padding: 0 20px 0 40px;
+    font-size: 18px;
+}
+
+.slider_item_img{
+    width: 30%;
+    float: left;
+    text-align: center;
+    background: url(../img/bg_kovicki_2.png)no-repeat left center;
+    padding-left: 30px;
+}
+
+.slider_item_img img{
+    border-radius: 50%;
+}
+
+
+.slider_item_name{
+    font-size: 25px;
+}
+
+.owl-carousel .slider_item_img img {
+    width: 67%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.main_img_show{
+    border: 4px solid #ffffff;
+    margin-bottom: 40px;
+}
+
+.slider_left, .slider_right{
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    color: #ffffff70;
+    margin-top: -30px;
+}
+
+.slider_left:hover, .slider_right:hover{
+    color: #ffffff;
+}
+
+.slider_left{
+    left: -70px;
+}
+
+.slider_right{
+    right: -70px;
+}
+
+.owl-dots{
+    display: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.owl-carousel button.owl-dot{
+    border: 5px solid #ffffff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.owl-carousel button.owl-dot:last-child{
+    margin-right: 0px;
+}
+
+.owl-carousel button.owl-dot.active{
+    background: #ffffff;
+}
 
 
 
