@@ -102,6 +102,25 @@
         background: none; 
         padding: 0px; 
     }
+
+    .qws_title_1, .qws_title_2{
+        text-align: left;
+    }
+
+    .owl-nav{
+        display: none;
+    }
+    
+    .slider_qws_item{
+        background: #00000073;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    .slider_qws_wrap {
+        width: 95%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 500px){

@@ -9,28 +9,13 @@
             navText: ['<div class="slider_left"><i class="fas fa-arrow-alt-circle-left"></i></div>','<div class="slider_right"><i class="fas fa-arrow-alt-circle-right"></i></div>'],
         });
 
-        $(".partners_slider").owlCarousel({
+        $(".slider_qws").owlCarousel({
             loop:true,
             margin: 30,
-            responsive:{
-                0:{
-                    items:1,
-                },
-                500:{
-                    items:1,
-                },
-                767:{
-                    items:3,
-                },
-                992:{
-                    items:5,
-                    nav:true
-                }
-            },
-            navText: ['<div class="partners_slider_left"></div>','<div class="partners_slider_right"></div>'],
-            autoplay: true,
-            autoplayTimeout: 5000,
-            dots: false
+            navText: ['<div class="slider_left"><i class="fas fa-arrow-alt-circle-left"></i></div>','<div class="slider_right"><i class="fas fa-arrow-alt-circle-right"></i></div>'],
+            dots: true,
+            items:1,
+            nav: true
         });
 
     $("a[href*='#']").bind("click", function(e){

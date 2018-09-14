@@ -595,7 +595,7 @@ header{
     width: 50px;
     font-size: 50px;
     color: #ffffff70;
-    margin-top: -30px;
+    margin-top: -60px;
 }
 
 .slider_left:hover, .slider_right:hover{
@@ -630,6 +630,41 @@ header{
 
 .owl-carousel button.owl-dot.active{
     background: #ffffff;
+}
+
+#qws{
+    padding: 90px 0;
+    background: url(../img/bg_4.png)no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#qws h2{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #efc316;
+    margin: 0 0 60px 0;
+}
+
+#qws .row{
+    margin-bottom: 25px;
+}
+
+.qws_title_1, .qws_title_2{
+    color: #efc316;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.qws_text_1{
+    font-weight: bold;
+}
+
+.slider_qws_wrap{
+    width: 80%;
+    margin: 0 auto;
 }
 
 
