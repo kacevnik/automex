@@ -1,6 +1,8 @@
 @media (max-width: 1200px){
     #super_gift p:first-child {
-        margin-top: 84px;
+        margin-top: -16px;
+        font-size: 100px;
+        margin-bottom: 0px;
     }
 }
 
