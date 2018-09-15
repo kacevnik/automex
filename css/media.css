@@ -121,6 +121,10 @@
         width: 95%;
         margin: 0 auto;
     }
+
+    #stolica .text{
+        text-align: center;
+    }
 }
 
 @media (max-width: 500px){
